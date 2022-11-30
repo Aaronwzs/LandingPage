@@ -1,0 +1,165 @@
+.container1, .container2{
+    background-color: #1F2937;
+    margin:-8px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    display:flex;
+    
+}
+
+
+
+
+.container-item{
+    flex:1;
+    text-align: center;
+    padding-top: 30px;
+}
+.container-item#headerLogo{
+    text-align: left;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top: 20px;
+   
+}
+
+.container-item#headerLinks{
+    
+    padding-right :90px;
+   
+}
+ul#links li{
+    display:inline;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.items{
+    color:white;
+
+}
+a:link{
+   
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(189, 128, 189);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.container2{
+    padding-top:100px;
+    padding-left:100px;
+    padding-bottom:100px;
+
+    
+    
+}
+div.title{
+    text-align: left;
+    
+}
+div.maintitle, div.subtitle{
+color:white;
+}
+
+div.img{
+    padding-right:100px;
+    padding-left:100px;
+}
+
+button.btn{
+    background-color:#3882F6;
+    border:none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:12px;
+}
+.container3 {
+    text-align: center;
+    padding-top:80px;
+    padding-bottom:100px;
+}
+.fourImages {
+display:flex;
+justify-content: space-between;
+padding-left:100px;
+padding-right:100px;
+padding-top:50px;
+
+}
+div.image{
+    overflow-wrap: break-word;
+}
+
+img.img1 {
+    border-style:solid ;
+   border-color:#3882F6;
+   border-radius:10px;  
+}
+
+div.quotes{
+    background-color: #E5E7EB;
+    padding-left:300px;
+    padding-right:300px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+div.quotes p{
+    font-size: 30px;
+    font-weight:bold;
+}
+p#author{
+    text-align: right;
+    font-weight:normal;
+}
+
+div.watch{
+    background-color: #3882F6;
+    border-radius:10px;
+    margin:100px;
+    margin-left:180px;
+    
+    padding-left:150px;
+    display:flex;
+    width:800px;
+}
+div.watch p{
+    padding-top:5px;
+    color:white;
+}
+p#conv{
+    font-size: 30px;
+    margin-bottom:-15px;
+    
+}
+
+p#conv1{
+    font-size: 20px;
+}
+
+button.btn2{
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left:100px;
+    border:white solid;
+    border-radius:10px;
+    background-color: #3882F6;
+    color:white;
+    padding:20px;
+    cursor:pointer;
+}
+
+div.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color:white;
+    padding:40px;
+}
